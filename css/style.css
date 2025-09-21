@@ -97,4 +97,64 @@ body{
     box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow; /* Efecto de resplandor amarillo */
   }
   
-  
+  @media screen and (max-width: 1200px){
+    .greetings{
+        font-size: 5rem;
+    }
+    .description{
+        font-size: 1.3rem;
+    }
+}
+
+/* Tablets pequeñas */
+@media screen and (max-width: 992px){
+    .greetings{
+        font-size: 4rem;
+    }
+    .description{
+        font-size: 1.2rem;
+    }
+}
+
+/* Celulares grandes */
+@media screen and (max-width: 768px){
+    .greetings{
+        font-size: 3.5rem;
+    }
+    .description{
+        font-size: 1rem;
+    }
+    .button button{
+        font-size: 16px;
+        padding: 8px 18px;
+    }
+}
+
+/* Celulares pequeños */
+@media screen and (max-width: 574px){
+    .greetings{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .description{
+        font-size: 0.9rem;
+    }
+    .button button{
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .greetings{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .description{
+        font-size: 0.8rem;
+    }
+    .button button{
+        font-size: 12px;
+        padding: 5px 12px;
+    }
+}
